@@ -44,14 +44,14 @@ export default class FightEvent extends Component {
       return (
         <>
          <h1 className="winning-fighter">{`And the winner is ${this.props.celebstats.celeb2}`}</h1>
-         <button className = "form-button" onClick = {() => window.location.reload(false)}>Play Again</button>
+         <button className="form-button" onClick = {() => window.location.reload(false)}>Play Again</button>
         </>
       );
     } else if (this.state.fighter2Count === 2) {
       return (
         <>
         <h1 className="winning-fighter">{`And the winner is ${this.props.celebstats.celeb1}`}</h1>
-        <button  className = "form-button" onClick = {() => window.location.reload(false)}>Play Again</button>
+        <button  className="form-button"  onClick = {() => window.location.reload(false)}>Play Again</button>
         </>
       );
     } else

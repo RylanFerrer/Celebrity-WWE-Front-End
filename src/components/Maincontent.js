@@ -9,7 +9,7 @@ export default class MainContent extends React.Component {
     event.preventDefault();
 
     axios
-      .get("https://powerful-retreat-14904.herokuapp.com/celeb", {
+      .get("https://damp-hamlet-49503.herokuapp.com/celeb", {
         params: {
           celebOne: event.target.celebOne.value
         }
@@ -23,7 +23,7 @@ export default class MainContent extends React.Component {
         });
       });
     axios
-      .get("https://powerful-retreat-14904.herokuapp.com/celeb", {
+      .get("https://damp-hamlet-49503.herokuapp.com/celeb", {
         params: {
           celebOne: event.target.celebTwo.value
         }
