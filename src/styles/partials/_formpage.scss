@@ -1,0 +1,48 @@
+.instructions {
+  color: $green;
+  font-size: 0.8em;
+  width: 60vw;
+  margin: $center;
+  padding: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+
+  .form {
+    &-celeb {
+      margin-bottom: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &__title {
+        padding: 8px;
+        font-size: 24px;
+        color: $green;
+      }
+
+      &__input {
+        width: 100%;
+        padding: 4px;
+        border: 1px solid white;
+        background-color: $blue;
+      }
+
+      &__input::placeholder {
+        color: $orange;
+      }
+    }
+    &-button {
+      margin: 12px;
+      padding: 4px 16px;
+      background-color: black;
+      color: $orange;
+      border: 2px solid white;
+      border-radius: 4px;
+    }
+  }
+}
